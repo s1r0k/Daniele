@@ -24,29 +24,26 @@
     };
 */
 
-    //lista della spesa di Daniele Benetti
-    $listaSpesa = [
-        "Uova",
-        "Pancetta",
-        "Latte",
-        "Farina",
-        "Olio",
-        "Surgelati",
-        "Pomodori",
-        "Moussa",
-        "Maionese",
-        "Pollo",
-        "Pesce"
-    ];
+//lista della spesa di Daniele Benetti
+$listaSpesa = [
+    "Uova",
+    "Pancetta",
+    "Latte",
+    "Farina",
+    "Olio",
+    "Surgelati",
+    "Pomodori",
+    "Moussa",
+    "Maionese",
+    "Pollo",
+    "Pesce"
+];
 
-    //ciclo for
-    echo"<b>[Lista della spesa di Daniele]</b><br>";
-    for ($i=0; $i < sizeof($listaSpesa); $i++){
-        if($i < count($listaSpesa)){
-             echo"[".$i."] --> ";
-        }else break;
-        echo $listaSpesa[$i]."<br>";
-        
-    };
-
-?>
+//ciclo for
+echo "<b>[Lista della spesa di Daniele]</b><br>";
+for ($i = 0; $i < sizeof($listaSpesa); $i++) {
+    if ($i < count($listaSpesa)) {
+        echo "[" . $i . "] --> ";
+    } else break;
+    echo $listaSpesa[$i] . "<br>";
+};
